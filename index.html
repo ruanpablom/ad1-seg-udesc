@@ -1,0 +1,270 @@
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPM Dev | Campanha Avançada: LGPD e Segurança</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --cor-fundo: #19263a;
+            --cor-destaque: #2DE680;
+            --cor-texto-principal: #e1e1e1;
+            --cor-texto-secundario: #a0a8b3;
+            --cor-fundo-card: #20314a;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto-principal);
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 20px;
+            border-bottom: 3px solid var(--cor-destaque);
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            color: var(--cor-destaque);
+            font-size: 2.8em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            color: var(--cor-texto-secundario);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .level-section {
+            background-color: var(--cor-fundo-card);
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 40px;
+            border-left: 5px solid var(--cor-destaque);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .level-section h2 {
+            color: var(--cor-destaque);
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .level-section h3 {
+            color: var(--cor-texto-principal);
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #3a4a62;
+            padding-bottom: 10px;
+        }
+
+        .level-section p, .level-section li {
+            font-size: 1.05em;
+            color: var(--cor-texto-secundario);
+            margin-bottom: 15px;
+        }
+        
+        .level-section strong {
+            color: var(--cor-texto-principal);
+            font-weight: 600;
+        }
+        
+        .level-section ul {
+            list-style-position: inside;
+            padding-left: 10px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto; /* Garante a responsividade da tabela */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 0.95em;
+        }
+
+        table th, table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #3a4a62;
+        }
+
+        table th {
+            background-color: #2a3b53;
+            color: var(--cor-destaque);
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #25364f;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            color: var(--cor-texto-secundario);
+            border-top: 1px solid #3a4a62;
+        }
+
+        .footer strong {
+            color: var(--cor-destaque);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            .header p, .level-section p, .level-section li {
+                font-size: 1em;
+            }
+            .level-section h2 {
+                font-size: 1.8em;
+            }
+            .level-section h3 {
+                font-size: 1.3em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Módulo Avançado: LGPD e Resposta a Incidentes</h1>
+        <p>A conexão entre ataques cibernéticos, vazamentos de dados e o impacto da Lei Geral de Proteção de Dados na <strong>RPM Dev</strong>.</p>
+    </header>
+
+    <div class="container">
+
+        <section id="nivel-1" class="level-section">
+            <h2>Nível 1: Para Todos os Colaboradores (A Linha de Frente)</h2>
+            <p><strong>Seu Tema: Você é um Agente de Proteção de Dados.</strong> Sua atenção diária é a nossa primeira e mais importante barreira de defesa.</p>
+
+            <h3>O que a LGPD protege e por que isso importa para você?</h3>
+            <p>A lei protege <strong>dados pessoais</strong>, que são qualquer informação que possa identificar uma pessoa. Um vazamento ocorre quando esses dados caem em mãos erradas, seja por um ataque direcionado ou um descuido. Isso é uma violação direta da lei.</p>
+
+            <h3>Como Ataques Simples Levam a Vazamentos Graves</h3>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ação do Hacker (Ataque)</th>
+                            <th>Sua Ação que Permite o Ataque</th>
+                            <th>Consequência (Vazamento + Violação LGPD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Phishing:</strong> Envio de um e-mail falso se passando pelo financeiro.</td>
+                            <td>Clicar no link e inserir seu usuário e senha da RPM Dev.</td>
+                            <td>O hacker rouba suas credenciais, acessa nossa base de clientes e copia milhares de dados.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Engenharia Social:</strong> Alguém liga se passando por um cliente com urgência.</td>
+                            <td>Fornecer informações sem confirmar a identidade por um canal seguro.</td>
+                            <td>Dados de um cliente são expostos, permitindo fraudes em nome da RPM Dev.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Malware via Download:</strong> Você baixa um software não autorizado.</td>
+                            <td>Instalar ferramentas não homologadas pelo TI.</td>
+                            <td>Um vírus captura suas senhas e dá acesso total da sua máquina ao invasor.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <h3>O que acontece com a RPM Dev?</h3>
+            <ul>
+                <li><strong>Multas Pesadas:</strong> Podem chegar a 2% do nosso faturamento anual (até R$ 50 milhões).</li>
+                <li><strong>Reputação Destruída:</strong> A lei exige que o vazamento seja tornado público.</li>
+                <li><strong>Paralisação das Operações:</strong> Podemos ser proibidos de usar nossas bases de dados.</li>
+            </ul>
+        </section>
+
+        <section id="nivel-2" class="level-section">
+            <h2>Nível 2: Para Equipes Técnicas (Os Arquitetos da Segurança)</h2>
+            <p><strong>Seu Tema: Construindo Segurança no Código e na Infraestrutura (Security by Design).</strong> A LGPD exige "medidas de segurança técnicas", e isso é nossa responsabilidade direta.</p>
+            
+            <h3>Vetores de Ataque Comuns e Nossas Defesas Técnicas</h3>
+             <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Vetor de Ataque do Hacker</th>
+                            <th>Nossa Resposta Técnica (Diretrizes LGPD)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Injeção de SQL (SQL Injection)</strong></td>
+                            <td>Usar <strong>Prepared Statements / Parameterized Queries</strong> em todo acesso a dados.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Credenciais Expostas no Código</strong></td>
+                            <td>Utilizar <strong>Secrets Management</strong> (variáveis de ambiente, Vault). Nunca "hardcodar" senhas.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Vulnerabilidades em Dependências</strong></td>
+                            <td>Manter um processo de <strong>Análise de Composição de Software (SCA)</strong> com ferramentas como Snyk ou Dependabot.</td>
+                        </tr>
+                         <tr>
+                            <td><strong>Controle de Acesso Quebrado</strong></td>
+                            <td>Aplicar o <strong>Princípio do Menor Privilégio (PoLP)</strong> em cada endpoint e componente.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Armazenamento Inseguro de Dados</strong></td>
+                            <td><strong>Criptografar</strong> dados sensíveis em repouso e usar <strong>hashes fortes com salt</strong> para senhas.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="nivel-3" class="level-section">
+            <h2>Nível 3: Para Liderança e Gestores (Os Guardiões da Estratégia)</h2>
+            <p><strong>Seu Tema: Gestão de Risco, Responsabilidade Legal e Continuidade do Negócio.</strong> A liderança define a cultura de segurança e tem a responsabilidade final perante a lei.</p>
+            
+            <h3>A RPM Dev como "Controladora de Dados"</h3>
+            <p>Nós tomamos as decisões sobre os dados e temos a máxima responsabilidade legal, mesmo que a falha ocorra em um fornecedor. A omissão ou negligência tem um custo altíssimo.</p>
+
+            <h3>Responsabilidades Estratégicas da Liderança</h3>
+            <ul>
+                <li><strong>Governança de Dados:</strong> Garantir a existência de um DPO (Encarregado de Dados), aprovar políticas claras e garantir o investimento necessário em segurança.</li>
+                <li><strong>Gestão de Incidentes:</strong> Ter um <strong>Plano de Resposta a Incidentes</strong> claro e testado. A LGPD nos obriga a comunicar vazamentos à autoridade e aos titulares dos dados.</li>
+                <li><strong>Cultura de Segurança:</strong> Fomentar um ambiente onde a segurança é um valor inegociável, vista como um investimento e um diferencial competitivo, não como um custo.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        <p>Uma campanha de conscientização da <strong>RPM Dev</strong>.</p>
+        <p>A segurança é uma responsabilidade de todos nós.</p>
+    </footer>
+
+</body>
+</html>
